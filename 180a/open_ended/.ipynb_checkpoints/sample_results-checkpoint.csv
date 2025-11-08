@@ -1,0 +1,133 @@
+id,candidate,best_equivalent,best_score,best_rationale,best_target,context
+ex-0,"The term that describes the areas where the five rites physically overlap or coexist within the territories controlled by the Roman Catholic Church is ""territorial overlap"" or more specifically, ""ecumenical territorial overlap"".",False,0.5,"The term 'full union' does not accurately describe the intersection of the rites with the Roman Catholic Church. The correct term is 'ecumenical territorial overlap', which refers to the areas where different rites physically coexist within the territories controlled by the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"The correct answer is:
+
+**Particular Churches**
+
+Explanation:
+
+* The ""rites"" or ""groups"" of churches refer to Eastern Catholic Churches that are in full communion with the Roman Catholic Church.
+* ""Particular Churches"" refers to individual churches within a specific territory, such as dioceses, archdioceses, etc.
+* The term ""intersection"" implies an overlap or coexistence of these particular churches within the territories controlled by the Roman Catholic Church.
+
+Therefore, the correct answer is **Particular Churches**.",True,1.0,The term 'Particular Churches' refers to individual churches within a specific territory that are in full communion with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,The answer is Ecclesiastical,False,0.0,,,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"The correct answer is ""Territories"". The question asks for a term that describes areas where the five rites (groups) of churches physically overlap or coexist within the territories controlled by the Roman Catholic Church.",False,0.0,,,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"The correct answer is ""Rite"" or more specifically, ""Eastern Rite"" or simply ""Oriental Rite"" since there are Eastern (Greek) and Oriental (Syriac, Chaldean etc.) Churches. 
+
+However, given the context of geographical overlap, it's likely that the term you're looking for is ""Rite"".
+
+The five rites (groups) of churches in full union with the Roman Catholic Church are:
+
+1. Latin Rite
+2. Eastern Rite (Greek)
+3. Oriental Rite
+4. Maronite Rite
+5. Malankara Rite",True,0.8,"The term that characterizes the intersection of the rites with the Roman Catholic Church is 'Rite'. The five groups of churches in full union with the Roman Catholic Church are referred to as rites, and this includes the Latin Rite, Eastern Rite (Greek), Oriental Rite, Maronite Rite, and Malankara Rite. Therefore, the correct answer is indeed 'Rite'.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Areas of Full Communion.,False,0.8,"The term 'full union' characterizes the intersection of the rites with the Roman Catholic Church, which matches the given context.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,The answer is Ecclesiastical.,False,0.0,,,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Areas of overlap"" or ""Regions of coexistence"" would be suitable terms to describe the areas where different rites physically overlap or coexist within the territories controlled by the Roman Catholic Church.
+
+However, a more specific and commonly used term in this context is:
+
+**Circumscriptions**
+
+A circumscription (plural: circumscriptions) refers to an area of jurisdiction or territory under the authority of a particular church or religious organization. In the context of the five rites within the Roman Catholic Church, it would describe the areas where these different rites physically overlap or coexist.
+
+Alternatively, another suitable term could be:
+
+**Territories**
+
+However, ""Circumscriptions"" is more specific and commonly used in this context.",True,0.8,The correct answer is 'full union' as it directly refers to the intersection of the rites with the Roman Catholic Church. The other options are related but not as precise.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"The term that describes the areas where the five rites physically overlap or coexist within the territories controlled by the Roman Catholic Church is ""Catholic particular churches"" or more specifically, ""particular churches in full communion"".",True,0.8,The correct answer is 'full union' as it describes the intersection of the rites with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Territories.,False,0.5,The term 'full union' characterizes the intersection of the rites with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity.,False,0.5,"Canonical affinity is a related concept, but it does not specifically describe the intersection of rites with the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity.,False,0.5,"Canonical affinity is a related concept, but it does not specifically describe the intersection of rites with the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity,False,0.5,The term 'canonical affinity' does not accurately describe the relationship between the rites and the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity,False,0.0,,,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity.,False,0.5,"Canonical affinity is a related concept, but it does not specifically describe the intersection of rites with the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity.,False,0.5,"Canonical affinity is a related concept, but it does not specifically describe the intersection of rites with the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity.,False,0.5,"Canonical affinity is a related concept, but it does not specifically describe the intersection of rites with the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity.,False,0.5,"Canonical affinity is a related concept, but it does not specifically describe the intersection of rites with the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity.,False,0.5,"Canonical affinity is a related concept, but it does not specifically describe the intersection of rites with the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Canonical affinity,False,0.5,The term 'canonical affinity' does not accurately describe the relationship between the rites and the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Full communion,True,1.0,The term 'full union' characterizes the intersection of the rites with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Full communion""",True,1.0,The term 'full union' is used in the context of the Roman Catholic Church canon law to describe the relationship between the main five rites and the Supreme Pontiff.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Full communion.,True,1.0,The term 'full communion' accurately describes the relationship between the Roman Catholic Church and its affiliated rites.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Full communion""",True,1.0,The term 'full union' is used in the context of the Roman Catholic Church canon law to describe the relationship between the main five rites and the Supreme Pontiff.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Full communion""",True,1.0,The term 'full union' is used in the context of the Roman Catholic Church canon law to describe the relationship between the main five rites and the Supreme Pontiff.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Full communion""",True,1.0,The term 'full union' is used in the context of the Roman Catholic Church canon law to describe the relationship between the main five rites and the Supreme Pontiff.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Full communion""",True,1.0,The term 'full union' is used in the context of the Roman Catholic Church canon law to describe the relationship between the main five rites and the Supreme Pontiff.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Full communion""",True,1.0,The term 'full union' is used in the context of the Roman Catholic Church canon law to describe the relationship between the main five rites and the Supreme Pontiff.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,Full communion.,True,1.0,The term 'full communion' accurately describes the relationship between the Roman Catholic Church and its affiliated rites.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""Full communion"" or ""full union"" would be a suitable answer to characterize the level of affiliation or membership these churches have with the Roman Catholic Church.",False,0.8,The term 'full union' characterizes the intersection of the rites with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,full union,True,1.0,"The term 'full union' is used to describe the relationship between the five rites and the Roman Catholic Church, indicating that they are in full communion with each other.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,union,True,1.0,The term 'union' accurately describes the intersection of the rites with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"The term ""rites"" itself may imply union but not necessarily a mutual association or interconnection. However, in this context, the term that characterizes the intersection of the rites with the Roman Catholic Church is ""full union"".",True,0.5,"The term 'rites' itself may imply union but not necessarily a mutual association or interconnection. However, in this context, the term that characterizes the intersection of the rites with the Roman Catholic Church is 'full union'. This term specifically connotes a complete and mutual connection between the rites and the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,full communion,False,0.5,"Full communion refers to the state of being in full agreement and unity with another church or denomination, but it does not necessarily imply a formal canonical relationship as 'full union' suggests.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,union,True,1.0,The term 'union' accurately describes the intersection of the rites with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,union,True,1.0,The term 'union' accurately describes the relationship between the rites and the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,union,True,1.0,The term 'union' accurately describes the relationship between the rites and the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,union,True,1.0,The term 'union' accurately describes the relationship between the rites and the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"The term that characterizes the intersection of the rites with the Roman Catholic Church is ""union"".",True,1.0,"The correct answer is indeed 'union', as it accurately describes the relationship between the rites and the Roman Catholic Church.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,union,True,1.0,The term 'union' accurately describes the intersection of the rites with the Roman Catholic Church.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,in communion with,False,0.8,The term 'in communion with' is close to the target but not exact.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""full union with""",True,1.0,The phrase 'full union' is a direct match for the target term.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""full union with""",True,1.0,"The question asks for a term that describes the relationship between the five rites and the Roman Catholic Church, which is described in the context as 'in full union'. This phrase matches the candidate exactly.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""in communion with""",True,0.5,"The term 'in communion with' is often used to describe the relationship between churches that are in full union with the Roman Catholic Church, which matches the context of the question.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,in communion with,False,0.8,The term 'in communion with' is close to the target but not exact.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""in communion with""",True,0.5,"The term 'in communion with' is often used to describe the relationship between churches that are in full union with the Roman Catholic Church, which matches the context of the question.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,"""full communion with""",True,0.8,"The term 'full union' is used in the context to describe the relationship between the five rites and the Roman Catholic Church, indicating a complete and unified bond.",full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,in communion with,False,0.8,The term 'in communion with' is close to the target but not exact.,full union,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,in communion with,False,0.0,,,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"
+ex-0,in communion with,False,0.0,,,"Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:
+Question: What term characterizes the intersection of the rites with the Roman Catholic Church?"

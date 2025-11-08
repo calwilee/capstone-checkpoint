@@ -1,0 +1,939 @@
+[
+    {
+        "orig_instruction": "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive",
+        "gt_clarification": [
+            "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive"
+        ],
+        "input": "This girl in the red coat will eat her breakfast and will put a picture of Bill on your desk before tomorrow. [i]",
+        "target": [
+            "in"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Determine the length of a sentence.",
+        "gt_clarification": [
+            "Determine the number of characters in a sentence, including spaces and punctuation.",
+            "Determine the number of words in a sentence.",
+            "Measure the physical size of a sentence as it appears on a page or screen, in units such as inches or centimeters."
+        ],
+        "input": "\"Hello, world!\"",
+        "target": [
+            "13",
+            "2",
+            "4.5"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Select the longest sentence from the following choices, output the sentence index",
+        "gt_clarification": [
+            "Select the sentence with the most characters from the following choices, output the sentence index.",
+            "Select the sentence with the most words from the following choices, output the sentence index."
+        ],
+        "input": "1. All happy families are alike; each unhappy family is unhappy in its own way. 2. It was the best of times, it was the worst of times. 3. It was the age of wisdom, it was the age of foolishness.",
+        "target": [
+            "1",
+            "1, 2"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Convert this positive integer number (in decimal) into its word form (English) in lowercase.",
+        "gt_clarification": [
+            "Convert this positive integer number (in decimal) into its word form (English) in lowercase."
+        ],
+        "input": "8",
+        "target": [
+            "eight"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Calculate the average of the numbers in the given list, rounding to the nearest whole number.",
+        "gt_clarification": [
+            "Calculate the average of the numbers in the given list, then round the final average to the nearest whole number.",
+            "Round each individual number in the given list to the nearest whole number first, then calculate the average of these rounded numbers."
+        ],
+        "input": "23.5, 47.2, 30.1, 16.6",
+        "target": [
+            "29",
+            "29.5"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive",
+        "gt_clarification": [
+            "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive"
+        ],
+        "input": "Fond of some boy every girl is. [e]",
+        "target": [
+            "every"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Find the middle value in a list of numbers.",
+        "gt_clarification": [
+            "Find the median value, which is the middle number in a list of numbers when sorted in ascending order. If the list has an even number of elements, calculate the median as the average of the two middle numbers.",
+            "Find the value that is at the middle index in the list of numbers after sorting it in ascending order. If the list has an even number of elements, select the lower of the two middle indices."
+        ],
+        "input": "2, 4",
+        "target": [
+            "3",
+            "2"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word.",
+        "gt_clarification": [
+            "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word."
+        ],
+        "input": "part",
+        "target": [
+            "p"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Find the capital of a country.",
+        "gt_clarification": [
+            "Find the political capital of a country.",
+            "Find the economic capital of a country.",
+            "Find the cultural capital of a country."
+        ],
+        "input": "South Africa",
+        "target": [
+            "Pretoria",
+            "Johannesburg",
+            "Cape Town"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the inputted word with a space between each letter in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word.",
+        "gt_clarification": [
+            "Write the inputted word with a space between each letter in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word."
+        ],
+        "input": "end",
+        "target": [
+            "e n d"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Classify a movie based on its rating.",
+        "gt_clarification": [
+            "Classify a movie based on its MPAA rating (e.g., G, PG, PG-13, R).",
+            "Classify a movie based on its IMDb rating (e.g., scale of 1 to 10).",
+            "Classify a movie based on its Rotten Tomatoes rating (e.g., percentage of positive reviews).",
+            "Classify a movie based on another specified rating system (please specify the system)."
+        ],
+        "input": "\"The Room\", MPAA: R, IMDb: 3.7/10, Rotten Tomatoes: 25%",
+        "target": [
+            "Restricted",
+            "Poor",
+            "Bad",
+            "Generally unfavorable reviews"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Subtract the second number from the first number.",
+        "gt_clarification": [
+            "Subtract the second number from the first number."
+        ],
+        "input": "11 0",
+        "target": [
+            "11"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Determine the square root of a number.",
+        "gt_clarification": [
+            "Determine the positive square root of a number.",
+            "Determine the negative square root of a number.",
+            "Determine both the positive and negative square roots of a number."
+        ],
+        "input": "1",
+        "target": [
+            "1",
+            "1",
+            "1 and -1"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Classify a movie based on its rating.",
+        "gt_clarification": [
+            "Classify a movie based on its MPAA rating (e.g., G, PG, PG-13, R).",
+            "Classify a movie based on its IMDb rating (e.g., scale of 1 to 10).",
+            "Classify a movie based on its Rotten Tomatoes rating (e.g., percentage of positive reviews).",
+            "Classify a movie based on another specified rating system (please specify the system)."
+        ],
+        "input": "Finding Nemo, MPAA: G, IMDb: 8.1, Rotten Tomatoes: 99%\n**Example 4:**",
+        "target": [
+            "G",
+            "Excellent",
+            "Universal Acclaim",
+            "Appropriate for ages 5 and up"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters.",
+        "gt_clarification": [
+            "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters."
+        ],
+        "input": "game",
+        "target": [
+            "a"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Write the inputted word with a space between each letter in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word.",
+        "gt_clarification": [
+            "Write the inputted word with a space between each letter in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word."
+        ],
+        "input": "time",
+        "target": [
+            "t i m e"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Identify the larger animal in the input.",
+        "gt_clarification": [
+            "Identify the larger animal in the input."
+        ],
+        "input": "snail, puppy",
+        "target": [
+            "puppy"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Calculate the average of the numbers in the given list, rounding to the nearest whole number.",
+        "gt_clarification": [
+            "Calculate the average of the numbers in the given list, then round the final average to the nearest whole number.",
+            "Round each individual number in the given list to the nearest whole number first, then calculate the average of these rounded numbers."
+        ],
+        "input": "3.6, 7.8, 1.5, 2.2",
+        "target": [
+            "4",
+            "4"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters.",
+        "gt_clarification": [
+            "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters."
+        ],
+        "input": "day",
+        "target": [
+            "a"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Identify the subject in the sentence.",
+        "gt_clarification": [
+            "Identify the grammatical subject of the sentence.",
+            "Identify the main topic being discussed in the sentence."
+        ],
+        "input": "The success of the project depends on the commitment of its team members.",
+        "target": [
+            "The success of the project",
+            "success of the project"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive",
+        "gt_clarification": [
+            "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive"
+        ],
+        "input": "Mary has never kissed a man who is taller than John is. [n]",
+        "target": [
+            "never"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Rank the football players based on their performance.",
+        "gt_clarification": [
+            "Rank the football players based on the number of goals scored.",
+            "Rank the football players based on the number of assists."
+        ],
+        "input": "The following table lists the football players and their performance metrics:\nName, Goals scored, Assists\nLionel Messi, 30, 12\nCristiano Ronaldo, 25, 10\nNeymar Jr, 15, 20\nKylian Mbappe, 28, 15",
+        "target": [
+            "Lionel Messi, Kylian Mbappe, Cristiano Ronaldo, Neymar Jr",
+            "Neymar Jr, Kylian Mbappe, Lionel Messi, Cristiano Ronaldo"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters.",
+        "gt_clarification": [
+            "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters."
+        ],
+        "input": "part",
+        "target": [
+            "a"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Count the number of objects in the given list of objects.",
+        "gt_clarification": [
+            "Count the total number of objects in the given list, including duplicates.",
+            "Count the number of unique objects in the given list, excluding duplicates."
+        ],
+        "input": "Forks, Spoons, Knives, Plates, Cups, Spoons, Forks, Spoons, Cups",
+        "target": [
+            "9",
+            "5"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Convert this positive integer number (in decimal) into its word form (English) in lowercase.",
+        "gt_clarification": [
+            "Convert this positive integer number (in decimal) into its word form (English) in lowercase."
+        ],
+        "input": "5",
+        "target": [
+            "five"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Calculate the average of the numbers in the given list, rounding to the nearest whole number.",
+        "gt_clarification": [
+            "Calculate the average of the numbers in the given list, then round the final average to the nearest whole number.",
+            "Round each individual number in the given list to the nearest whole number first, then calculate the average of these rounded numbers."
+        ],
+        "input": "[10.9, 11.1, 9.9, 10.1]",
+        "target": [
+            "11",
+            "10.5"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word.",
+        "gt_clarification": [
+            "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word."
+        ],
+        "input": "season",
+        "target": [
+            "s"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Convert this positive integer number (in decimal) into its word form (English) in lowercase.",
+        "gt_clarification": [
+            "Convert this positive integer number (in decimal) into its word form (English) in lowercase."
+        ],
+        "input": "0",
+        "target": [
+            "zero"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Find the middle value in a list of numbers.",
+        "gt_clarification": [
+            "Find the median value, which is the middle number in a list of numbers when sorted in ascending order. If the list has an even number of elements, calculate the median as the average of the two middle numbers.",
+            "Find the value that is at the middle index in the list of numbers after sorting it in ascending order. If the list has an even number of elements, select the lower of the two middle indices."
+        ],
+        "input": "20, 10",
+        "target": [
+            "15",
+            "10"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Count the number of objects in the given list of objects.",
+        "gt_clarification": [
+            "Count the total number of objects in the given list, including duplicates.",
+            "Count the number of unique objects in the given list, excluding duplicates."
+        ],
+        "input": "5 pens, 5 pens, 5 pens, 2 erasers, 3 pencils",
+        "target": [
+            "20",
+            "3"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Classify a movie based on its rating.",
+        "gt_clarification": [
+            "Classify a movie based on its MPAA rating (e.g., G, PG, PG-13, R).",
+            "Classify a movie based on its IMDb rating (e.g., scale of 1 to 10).",
+            "Classify a movie based on its Rotten Tomatoes rating (e.g., percentage of positive reviews).",
+            "Classify a movie based on another specified rating system (please specify the system)."
+        ],
+        "input": "The movie \"Toy Story 4\" has a MPAA rating of G, an IMDb rating of 7.8, and a Rotten Tomatoes rating of 97%.",
+        "target": [
+            "G",
+            "Good",
+            "Excellent",
+            "Suitable for ages 5 and up"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Determine the square root of a number.",
+        "gt_clarification": [
+            "Determine the positive square root of a number.",
+            "Determine the negative square root of a number.",
+            "Determine both the positive and negative square roots of a number."
+        ],
+        "input": "81",
+        "target": [
+            "9",
+            "9",
+            "9 and -9"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Calculate the average of the numbers in the given list, rounding to the nearest whole number.",
+        "gt_clarification": [
+            "Calculate the average of the numbers in the given list, then round the final average to the nearest whole number.",
+            "Round each individual number in the given list to the nearest whole number first, then calculate the average of these rounded numbers."
+        ],
+        "input": "1.1, 2.8, 3.6, 4.0, 5.5",
+        "target": [
+            "3",
+            "4"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Determine the length of a sentence.",
+        "gt_clarification": [
+            "Determine the number of characters in a sentence, including spaces and punctuation.",
+            "Determine the number of words in a sentence.",
+            "Measure the physical size of a sentence as it appears on a page or screen, in units such as inches or centimeters."
+        ],
+        "input": "\"The quick brown fox jumps over the lazy dog.\"",
+        "target": [
+            "43",
+            "9",
+            "6.5"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Identify the largest city in the set.",
+        "gt_clarification": [
+            "Identify the city with the largest population in the set.",
+            "Identify the city with the largest land area in the set."
+        ],
+        "input": "The following table lists the cities in the set:\nName, Population, Land Area\nLos Angeles, 4 million, 1,302 km²\nChicago, 2.7 million, 606.1 km²\nHouston, 2.3 million, 1,651 km²\nPhoenix, 1.7 million, 1,338 km²",
+        "target": [
+            "Los Angeles",
+            "Houston"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Convert this positive integer number (in decimal) into its word form (English) in lowercase.",
+        "gt_clarification": [
+            "Convert this positive integer number (in decimal) into its word form (English) in lowercase."
+        ],
+        "input": "11",
+        "target": [
+            "eleven"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Write the antonym of the given word. The antonym should be a single word with the same part-of-speech as the given word",
+        "gt_clarification": [
+            "Write the antonym of the given word. The antonym should be a single word with the same part-of-speech as the given word"
+        ],
+        "input": "direct",
+        "target": [
+            "indirect"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word.",
+        "gt_clarification": [
+            "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word."
+        ],
+        "input": "song",
+        "target": [
+            "s"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Rearrange the objects on the table in ascending order.",
+        "gt_clarification": [
+            "Rearrange the objects on the table in ascending order by size, from smallest to largest.",
+            "Rearrange the objects on the table in ascending order by weight, from lightest to heaviest.",
+            "Rearrange the objects on the table in ascending order by color, following the spectrum from red to violet.",
+            "Rearrange the objects on the table in ascending order by date of manufacture, from oldest to newest.",
+            "Rearrange the objects on the table in ascending order by price, from least expensive to most expensive."
+        ],
+        "input": "The following items are on my table:\nName, size, weight, color, date of manufacture, price\nKeychain, 5cm, 0.05kg, Yellow, 06/01/2020, $2.00\nFlash drive, 6cm, 0.03kg, Black, 09/15/2022, $12.00\nSunglasses, 15cm, 0.08kg, Brown, 03/20/2021, $50.00\nWater bottle, 22cm, 0.35kg, Blue, 12/12/2022, $10.00\nStapler, 16cm, 0.25kg, Red, 04/18/2018, $7.00",
+        "target": [
+            "Keychain, Flash drive, Sunglasses, Stapler, Water bottle",
+            "Flash drive, Keychain, Sunglasses, Stapler, Water bottle",
+            "Flash drive, Stapler, Sunglasses, Keychain, Water bottle",
+            "Stapler, Keychain, Sunglasses, Flash drive, Water bottle",
+            "Keychain, Stapler, Water bottle, Flash drive, Sunglasses"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Sort the data in alphabetical order.",
+        "gt_clarification": [
+            "Sort the data in ascending alphabetical order.",
+            "Sort the data in descending alphabetical order."
+        ],
+        "input": "Quebec, Ontario, Alberta, Manitoba",
+        "target": [
+            "Alberta, Manitoba, Ontario, Quebec",
+            "Quebec, Ontario, Manitoba, Alberta"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Subtract the second number from the first number.",
+        "gt_clarification": [
+            "Subtract the second number from the first number."
+        ],
+        "input": "13 0",
+        "target": [
+            "13"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Determine the length of a sentence.",
+        "gt_clarification": [
+            "Determine the number of characters in a sentence, including spaces and punctuation.",
+            "Determine the number of words in a sentence.",
+            "Measure the physical size of a sentence as it appears on a page or screen, in units such as inches or centimeters."
+        ],
+        "input": "\"The quick brown fox jumps over the lazy dog.\"",
+        "target": [
+            "44",
+            "9",
+            "the length of the sentence}\n\nReplace {the length of the sentence} with the actual measurement you have obtained"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Identify the larger animal in the input.",
+        "gt_clarification": [
+            "Identify the larger animal in the input."
+        ],
+        "input": "poodle, snail",
+        "target": [
+            "poodle"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word.",
+        "gt_clarification": [
+            "Write the first letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word."
+        ],
+        "input": "year",
+        "target": [
+            "y"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Pluralize the input English word (part-of-speech: noun).",
+        "gt_clarification": [
+            "Pluralize the input English word (part-of-speech: noun)."
+        ],
+        "input": "season",
+        "target": [
+            "seasons"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Add the two numerical inputs together and output the result.",
+        "gt_clarification": [
+            "Add the two numerical inputs together and output the result."
+        ],
+        "input": "0 13",
+        "target": [
+            "13"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Identify the larger animal in the input.",
+        "gt_clarification": [
+            "Identify the larger animal in the input."
+        ],
+        "input": "parrot, snail",
+        "target": [
+            "parrot"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Count the number of objects in the given list of objects.",
+        "gt_clarification": [
+            "Count the total number of objects in the given list, including duplicates.",
+            "Count the number of unique objects in the given list, excluding duplicates."
+        ],
+        "input": "Cars, Bikes, Cars, Trucks, Bikes, Scooters, Motorcycles, Trucks",
+        "target": [
+            "8",
+            "5"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Organize the files by date.",
+        "gt_clarification": [
+            "Organize the files by creation date.",
+            "Organize the files by last modified date.",
+            "Organize the files by the date associated with the content of the files (e.g., the date mentioned in a document or the date a photo was taken)."
+        ],
+        "input": "The following table lists the files on my computer:\nName, creation date, last modified date, content-associated date\nphoto.jpg, 01/03/2021, 01/07/2021, 12/25/2020\nreport.docx, 02/15/2021, 04/30/2021, 02/01/2021\ninvoice.pdf, 03/22/2021, 03/25/2021, 03/15/2021\nnotes.txt, 04/10/2021, 05/02/2021, 04/05/2021",
+        "target": [
+            "photo.jpg, report.docx, invoice.pdf, notes.txt",
+            "photo.jpg, invoice.pdf, report.docx, notes.txt",
+            "photo.jpg, report.docx, invoice.pdf, notes.txt"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Count the number of objects in the given list of objects.",
+        "gt_clarification": [
+            "Count the total number of objects in the given list, including duplicates.",
+            "Count the number of unique objects in the given list, excluding duplicates."
+        ],
+        "input": "Dolls, Action Figures, Dolls, Blocks, Puzzles, Action Figures, Blocks",
+        "target": [
+            "7",
+            "4"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Sort the data in alphabetical order.",
+        "gt_clarification": [
+            "Sort the data in ascending alphabetical order.",
+            "Sort the data in descending alphabetical order."
+        ],
+        "input": "Document, Folder, Application, Bookmark, Cache",
+        "target": [
+            "Application, Bookmark, Cache, Document, Folder",
+            "Folder, Document, Cache, Bookmark, Application"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Rearrange the objects on the table in ascending order.",
+        "gt_clarification": [
+            "Rearrange the objects on the table in ascending order by size, from smallest to largest.",
+            "Rearrange the objects on the table in ascending order by weight, from lightest to heaviest.",
+            "Rearrange the objects on the table in ascending order by color, following the spectrum from red to violet.",
+            "Rearrange the objects on the table in ascending order by date of manufacture, from oldest to newest.",
+            "Rearrange the objects on the table in ascending order by price, from least expensive to most expensive."
+        ],
+        "input": "The following table lists the objects on my table:\nName, size, weight, color, date of manufacture, price\nPen, 14cm, 0.02kg, Blue, 01/15/2022, $1.50\nNotebook, 24cm, 0.45kg, Red, 08/10/2021, $3.00\nLamp, 35cm, 0.76kg, Green, 12/25/2019, $18.00\nCup, 10cm, 0.30kg, Violet, 03/08/2020, $5.00\nMouse, 12cm, 0.10kg, Red, 11/11/2021, $25.00",
+        "target": [
+            "Cup, Mouse, Pen, Notebook, Lamp",
+            "Pen, Mouse, Cup, Notebook, Lamp",
+            "Notebook, Mouse, Lamp, Pen, Cup",
+            "Lamp, Cup, Notebook, Mouse, Pen",
+            "Pen, Notebook, Cup, Lamp, Mouse"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Determine the square root of a number.",
+        "gt_clarification": [
+            "Determine the positive square root of a number.",
+            "Determine the negative square root of a number.",
+            "Determine both the positive and negative square roots of a number."
+        ],
+        "input": "16",
+        "target": [
+            "4",
+            "4",
+            "4, -4"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters.",
+        "gt_clarification": [
+            "Write the second letter of the input word in lowercase. The input word (written in lowercase) is case-insensitive and should be treated as a single word. Also, the input word always has more than two letters."
+        ],
+        "input": "season",
+        "target": [
+            "e"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Subtract the second number from the first number.",
+        "gt_clarification": [
+            "Subtract the second number from the first number."
+        ],
+        "input": "6 0",
+        "target": [
+            "6"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Find the middle value in a list of numbers.",
+        "gt_clarification": [
+            "Find the median value, which is the middle number in a list of numbers when sorted in ascending order. If the list has an even number of elements, calculate the median as the average of the two middle numbers.",
+            "Find the value that is at the middle index in the list of numbers after sorting it in ascending order. If the list has an even number of elements, select the lower of the two middle indices."
+        ],
+        "input": "3, 8, 1, 4",
+        "target": [
+            "3.5",
+            "3"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Sort the names alphabetically.",
+        "gt_clarification": [
+            "Sort the names alphabetically by the first name.",
+            "Sort the names alphabetically by the last name."
+        ],
+        "input": "Jennifer Aniston, Courtney Cox, Lisa Kudrow, Matthew Perry",
+        "target": [
+            "Courtney Cox, Jennifer Aniston, Lisa Kudrow, Matthew Perry",
+            "Jennifer Aniston, Courtney Cox, Lisa Kudrow, Matthew Perry"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Convert this positive integer number (in decimal) into its word form (English) in lowercase.",
+        "gt_clarification": [
+            "Convert this positive integer number (in decimal) into its word form (English) in lowercase."
+        ],
+        "input": "14",
+        "target": [
+            "fourteen"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Rank the football players based on their performance.",
+        "gt_clarification": [
+            "Rank the football players based on the number of goals scored.",
+            "Rank the football players based on the number of assists."
+        ],
+        "input": "The following table lists the football players with their performance stats:\nName, goals scored, assists\nLionel Messi, 30, 12\nCristiano Ronaldo, 25, 10\nNeymar Jr, 15, 20\nMohamed Salah, 18, 14",
+        "target": [
+            "Lionel Messi, Cristiano Ronaldo, Mohamed Salah, Neymar Jr",
+            "Neymar Jr, Mohamed Salah, Lionel Messi, Cristiano Ronaldo"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive",
+        "gt_clarification": [
+            "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive"
+        ],
+        "input": "Yesterday John talked to any woman he saw. [a]",
+        "target": [
+            "any"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Determine the length of a sentence.",
+        "gt_clarification": [
+            "Determine the number of characters in a sentence, including spaces and punctuation.",
+            "Determine the number of words in a sentence.",
+            "Measure the physical size of a sentence as it appears on a page or screen, in units such as inches or centimeters."
+        ],
+        "input": "\"Hello, World!\"",
+        "target": [
+            "13",
+            "2",
+            "6"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Identify the largest city in the set.",
+        "gt_clarification": [
+            "Identify the city with the largest population in the set.",
+            "Identify the city with the largest land area in the set."
+        ],
+        "input": "The following table lists the cities in the set:\nName, Population, Land Area\nTokyo, 37 million, 2,194 km²\nDelhi, 30 million, 1,484 km²\nShanghai, 26 million, 6,340.5 km²\nNew York, 8 million, 783.8 km²",
+        "target": [
+            "Tokyo",
+            "Shanghai"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Convert this positive integer number (in decimal) into its word form (English) in lowercase.",
+        "gt_clarification": [
+            "Convert this positive integer number (in decimal) into its word form (English) in lowercase."
+        ],
+        "input": "12",
+        "target": [
+            "twelve"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Identify the larger animal in the input.",
+        "gt_clarification": [
+            "Identify the larger animal in the input."
+        ],
+        "input": "snail, pelican",
+        "target": [
+            "pelican"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive",
+        "gt_clarification": [
+            "Identify the first word, reading from left to right, in the input sentence that begins with the letter provided in brackets. If there is a one-letter word that matches the given letter, choose that word. The search for the word should be case-insensitive"
+        ],
+        "input": "Mary likes herself. [l]",
+        "target": [
+            "likes"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Find the capital of a country.",
+        "gt_clarification": [
+            "Find the political capital of a country.",
+            "Find the economic capital of a country.",
+            "Find the cultural capital of a country."
+        ],
+        "input": "India",
+        "target": [
+            "New Delhi",
+            "Mumbai",
+            "Kolkata"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Rearrange the objects on the table in ascending order.",
+        "gt_clarification": [
+            "Rearrange the objects on the table in ascending order by size, from smallest to largest.",
+            "Rearrange the objects on the table in ascending order by weight, from lightest to heaviest.",
+            "Rearrange the objects on the table in ascending order by color, following the spectrum from red to violet.",
+            "Rearrange the objects on the table in ascending order by date of manufacture, from oldest to newest.",
+            "Rearrange the objects on the table in ascending order by price, from least expensive to most expensive."
+        ],
+        "input": "The following table lists objects on my desk:\nName, size, weight, color, date of manufacture, price\nPen, 14cm, 0.01kg, blue, 01/15/2022, $1.50\nNotebook, 21cm, 0.3kg, red, 06/12/2021, $3.00\nLaptop, 38cm, 2.0kg, silver, 03/10/2020, $1200.00\nMouse, 12cm, 0.08kg, black, 09/17/2019, $25.00\nCoffee Mug, 10cm, 0.35kg, green, 11/05/2021, $10.00",
+        "target": [
+            "Coffee Mug, Mouse, Pen, Notebook, Laptop",
+            "Pen, Mouse, Notebook, Coffee Mug, Laptop",
+            "Notebook, Coffee Mug, Pen",
+            "Mouse, Laptop, Coffee Mug, Notebook, Pen",
+            "Pen, Notebook, Coffee Mug, Mouse, Laptop"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Find the middle value in a list of numbers.",
+        "gt_clarification": [
+            "Find the median value, which is the middle number in a list of numbers when sorted in ascending order. If the list has an even number of elements, calculate the median as the average of the two middle numbers.",
+            "Find the value that is at the middle index in the list of numbers after sorting it in ascending order. If the list has an even number of elements, select the lower of the two middle indices."
+        ],
+        "input": "3, 1, 4, 2",
+        "target": [
+            "2.5",
+            "2"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Identify the subject in the sentence.",
+        "gt_clarification": [
+            "Identify the grammatical subject of the sentence.",
+            "Identify the main topic being discussed in the sentence."
+        ],
+        "input": "The committee decided on the new policy.",
+        "target": [
+            "The committee",
+            "the new policy"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Find the middle value in a list of numbers.",
+        "gt_clarification": [
+            "Find the median value, which is the middle number in a list of numbers when sorted in ascending order. If the list has an even number of elements, calculate the median as the average of the two middle numbers.",
+            "Find the value that is at the middle index in the list of numbers after sorting it in ascending order. If the list has an even number of elements, select the lower of the two middle indices."
+        ],
+        "input": "12, 20, 35, 46, 52, 66, 74, 81",
+        "target": [
+            "49",
+            "46"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Write the antonym of the given word. The antonym should be a single word with the same part-of-speech as the given word",
+        "gt_clarification": [
+            "Write the antonym of the given word. The antonym should be a single word with the same part-of-speech as the given word"
+        ],
+        "input": "formality",
+        "target": [
+            "informality"
+        ],
+        "isambig": false
+    },
+    {
+        "orig_instruction": "Determine the square root of a number.",
+        "gt_clarification": [
+            "Determine the positive square root of a number.",
+            "Determine the negative square root of a number.",
+            "Determine both the positive and negative square roots of a number."
+        ],
+        "input": "0.0625",
+        "target": [
+            "0.25",
+            "0.25",
+            "0.25 and -0.25"
+        ],
+        "isambig": true
+    },
+    {
+        "orig_instruction": "Find the middle value in a list of numbers.",
+        "gt_clarification": [
+            "Find the median value, which is the middle number in a list of numbers when sorted in ascending order. If the list has an even number of elements, calculate the median as the average of the two middle numbers.",
+            "Find the value that is at the middle index in the list of numbers after sorting it in ascending order. If the list has an even number of elements, select the lower of the two middle indices."
+        ],
+        "input": "7, 3, 8, 4",
+        "target": [
+            "5.5",
+            "4"
+        ],
+        "isambig": true
+    }
+]

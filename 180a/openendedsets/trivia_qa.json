@@ -1,0 +1,442 @@
+[
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which theory states that 'people tend to rise to their own level of incompetence'?",
+    "target": [
+      "PETER PRINCIPLE"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which writer was the father of Christopher Robin?",
+    "target": [
+      "A A MILNE"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: The Dance Class and Absinthe are famous works by which painter?",
+    "target": [
+      "EDGAR DEGAS"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which American actor also performs with the band Dogstar?",
+    "target": [
+      "Keanu Reeves"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: In which city was the British version of Concorde assembled",
+    "target": [
+      "Bristol"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: What is taphophobia the fear of?",
+    "target": [
+      "Graves"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which bruising 19th century American, the last of the bare knuckle boxing heavyweight champions, was the first athlete to earn over one million dollars?",
+    "target": [
+      "John L. Sullivan"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Who was the merchant sea-captain who made the first American circumnavigation of the world in 1790, and is known for trading voyages to the northern Pacific coast of North America between 1790 and 1793, which pioneered the fur trade in that region?",
+    "target": [
+      "Robert Gray"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Situated in Piccadilly, what is the name of London’s oldest bookshop?",
+    "target": [
+      "Hatchards"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: What childhood stories feature a young boy named Mowgli?",
+    "target": [
+      "The Jungle Book"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: What potent greenhouse gas is produced by the digestive systems of cattle?",
+    "target": [
+      "Methane"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: \"Which bandleader was known as \"\"The sentimental gentleman of swing\"\" because of his smooth trombone style?\"",
+    "target": [
+      "Tommy Dorsey"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which male Russian won the 100/200 metre double at the 1972 Olympics?",
+    "target": [
+      "VALERIY BORZOV"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Sir Ronald Ross was the first British winner of the Nobel Prize for Medicine in 1902 for his research in combating which disease?",
+    "target": [
+      "Malaria"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which painter married Hortense Fiquet and used her as the subject of many of his paintings?",
+    "target": [
+      "PAUL CEZANNE"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: On this day in 1993, in a UN backed referendum, Eritreans voted overwhelmingly in favour of independence from which country ?",
+    "target": [
+      "ETHIOPIA"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which angel in Charlie's Angels was played by Jaclyn Smith",
+    "target": [
+      "Kelly Garrett"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which country has borders with the Central African Republic, Sudan, Zambia, Angola, the Republic of the Congo, Uganda, Rwanda and Burundi (with Tanzania across Lake Tanganyika)?",
+    "target": [
+      "Democratic Republic of the Congo"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which battle of 23 June, 1757, was a major victory for the British East India Company's troops over the Nawab of Bengal and his French allies?",
+    "target": [
+      "The Battle of Plassey"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: In woodworking joints, what do you insert into your mortise?",
+    "target": [
+      "Tenon"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: \"What type of car was \"\"KITT\"\" from the \"\"Knightrider\"\" series?\"",
+    "target": [
+      "Pontiac Trans-Am"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: In which year did Queen Elizabeth the Queen Mother die?",
+    "target": [
+      "2002"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Name the two tiles with the highest score in Scrabble?",
+    "target": [
+      "Q and Z"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: What was Orson Welles’ first film?",
+    "target": [
+      "CITIZEN KANE"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: \"According to the opening line of T.S. Eliot's poem 'The Wasteland', which is \"\"the cruellest month\"\"?\"",
+    "target": [
+      "APRIL"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: What are Ponte Vecchio and Pont Neuf?",
+    "target": [
+      "Bridges"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which year was renowned as ‘The Year of Revolutions’?",
+    "target": [
+      "1848"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Who played the mad legless Captain Rum in the second series of Blackadder?",
+    "target": [
+      "Tom Baker"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which musical, for long entrenched at the Palace theatre in London, is currently running at the Queens theatre ?",
+    "target": [
+      "LES MISERABLES"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: \"What insect acts as the transmitting agent in the spread of the infectious disease \"\"Bubonic Plague\"\"?\"",
+    "target": [
+      "FLEA"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Who was born Vera Margaret Welsh on 20th March 1917?",
+    "target": [
+      "Vera Lynne"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Castor (or castoreum) is an oily substance secreted by which animal, and historically used in medicine and perfume?",
+    "target": [
+      "Beaver"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Who did Jai McDowall beat in this years final of Britain's Got Talent?",
+    "target": [
+      "Ronan Parke"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: The staging of what enormous annual Afro-Caribbean cultural gathering was put in doubt following the London riots of August 2011?",
+    "target": [
+      "Notting Hill Carnival"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Kronos (or Cronus) was the Greek equivalent of which Roman god?",
+    "target": [
+      "Saturn"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: What was the capital of West Germany?",
+    "target": [
+      "Bonn"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: In which year did the liner Queen Mary gain the blue riband on her maiden voyage?",
+    "target": [
+      "1936"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: 'Simon Tappertit' appears in which novel by Charles Dickens?",
+    "target": [
+      "'BARNABY RUDGE'"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: Which film starring Bill Murray includes the line Roses are red, violets are blue, I'm a schizophrenic and so am I?",
+    "target": [
+      "What About Bob"
+    ],
+    "isambig": false
+  },
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: \nQuestion: What beer was advertised with the slogan Reach for Greatness",
+    "target": [
+      "Bass"
+    ],
+    "isambig": false
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "orig_instruction": "Answer the question based on the given context.",
+    "gt_clarification": [
+      "Answer the question based on the given context."
+    ],
+    "input": "Context: The Roman Catholic Church canon law also includes the main five rites (groups) of churches which are in full union with the Roman Catholic Church and the Supreme Pontiff:\nQuestion: What term characterizes the intersection of the rites with the Roman Catholic Church?",
+    "target": [
+      "full union"
+    ],
+    "isambig": false,
+    "orig_inst": "Answer the question based on the given context.",
+    "self_clarification": [
+      "Intersection as geographical overlap: Answer the question based on the given context by selecting the term that describes the areas where the five rites (groups) of churches physically overlap or coexist within the territories controlled by the Roman Catholic Church.",
+      "Intersection as canonical affinity: Answer the question based on the given context by choosing the term that characterizes the shared canon law, practices, or traditions among the five rites (groups) of churches and the Roman Catholic Church.",
+      "Intersection as membership: Answer the question based on the given context by selecting the term that describes the level of affiliation or membership these churches have with the Roman Catholic Church, such as their submission to the Supreme Pontiff.",
+      "The term \"rites\" itself may imply union but not necessarily a mutual association or interconnection.",
+      "Another disambiguated description would be to specify a unique, more explicit term such as \"in communion with\" the Roman Catholic Church, which indicates a formal and acknowledged relationship between the rites in question and the broader institution of the Roman Catholic Church.",
+      "An even more specific disambiguation would focus on using terms like \"full union\" as a defining characteristic that emphasizes both shared practices (rituals) and authority, implying a much deeper association than just coexistence."
+    ],
+    "others": [
+      [],
+      []
+    ],
+    "clarified_all_ans": [
+      [
+        "The term that describes the areas where the five rites physically overlap or coexist within the territories controlled by the Roman Catholic Church is \"territorial overlap\" or more specifically, \"ecumenical territorial overlap\".",
+        "The correct answer is:\n\n**Particular Churches**\n\nExplanation:\n\n* The \"rites\" or \"groups\" of churches refer to Eastern Catholic Churches that are in full communion with the Roman Catholic Church.\n* \"Particular Churches\" refers to individual churches within a specific territory, such as dioceses, archdioceses, etc.\n* The term \"intersection\" implies an overlap or coexistence of these particular churches within the territories controlled by the Roman Catholic Church.\n\nTherefore, the correct answer is **Particular Churches**.",
+        "The answer is Ecclesiastical",
+        "The correct answer is \"Territories\". The question asks for a term that describes areas where the five rites (groups) of churches physically overlap or coexist within the territories controlled by the Roman Catholic Church.",
+        "The correct answer is \"Rite\" or more specifically, \"Eastern Rite\" or simply \"Oriental Rite\" since there are Eastern (Greek) and Oriental (Syriac, Chaldean etc.) Churches. \n\nHowever, given the context of geographical overlap, it's likely that the term you're looking for is \"Rite\".\n\nThe five rites (groups) of churches in full union with the Roman Catholic Church are:\n\n1. Latin Rite\n2. Eastern Rite (Greek)\n3. Oriental Rite\n4. Maronite Rite\n5. Malankara Rite",
+        "Areas of Full Communion.",
+        "The answer is Ecclesiastical.",
+        "\"Areas of overlap\" or \"Regions of coexistence\" would be suitable terms to describe the areas where different rites physically overlap or coexist within the territories controlled by the Roman Catholic Church.\n\nHowever, a more specific and commonly used term in this context is:\n\n**Circumscriptions**\n\nA circumscription (plural: circumscriptions) refers to an area of jurisdiction or territory under the authority of a particular church or religious organization. In the context of the five rites within the Roman Catholic Church, it would describe the areas where these different rites physically overlap or coexist.\n\nAlternatively, another suitable term could be:\n\n**Territories**\n\nHowever, \"Circumscriptions\" is more specific and commonly used in this context.",
+        "The term that describes the areas where the five rites physically overlap or coexist within the territories controlled by the Roman Catholic Church is \"Catholic particular churches\" or more specifically, \"particular churches in full communion\".",
+        "Territories."
+      ],
+      [
+        "Canonical affinity.",
+        "Canonical affinity.",
+        "Canonical affinity",
+        "Canonical affinity",
+        "Canonical affinity.",
+        "Canonical affinity.",
+        "Canonical affinity.",
+        "Canonical affinity.",
+        "Canonical affinity.",
+        "Canonical affinity"
+      ],
+      [
+        "Full communion",
+        "\"Full communion\"",
+        "Full communion.",
+        "\"Full communion\"",
+        "\"Full communion\"",
+        "\"Full communion\"",
+        "\"Full communion\"",
+        "\"Full communion\"",
+        "Full communion.",
+        "\"Full communion\" or \"full union\" would be a suitable answer to characterize the level of affiliation or membership these churches have with the Roman Catholic Church."
+      ],
+      [
+        "full union",
+        "union",
+        "The term \"rites\" itself may imply union but not necessarily a mutual association or interconnection. However, in this context, the term that characterizes the intersection of the rites with the Roman Catholic Church is \"full union\".",
+        "full communion",
+        "union",
+        "union",
+        "union",
+        "union",
+        "The term that characterizes the intersection of the rites with the Roman Catholic Church is \"union\".",
+        "union"
+      ],
+      [
+        "in communion with",
+        "\"full union with\"",
+        "\"full union with\"",
+        "\"in communion with\"",
+        "in communion with",
+        "\"in communion with\"",
+        "\"full communion with\"",
+        "in communion with",
+        "in communion with",
+        "in communion with"
+      ]
+    ]
+  }
+]
