@@ -3,7 +3,9 @@
 This respository contains code from the repo given by the paper Decomposing Uncertainty for Large Language Models
 through Input Clarification Ensembling. I have written code to parse outputs, and edited model prompts, as well as run experiments using Llama3.1:8b instead of gpt3.5. 
 
-Currenrly, code is being uploaded to github, taking a while. This may be the reason the repo is empty besides this readme for now. 
+Since we are reading over this paper, we are not writing much code besides testing data. 
+
+Currenrly, the full code used for generating clarifications and evaluating model uncertainity is being uploaded to github, taking a while. As of now, I have uploaded notebooks where I did some small experiments with the data generated. 
 
 ### Requirements
 
